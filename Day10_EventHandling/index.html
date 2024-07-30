@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="script.js" defer></script>
+		<title>Day 10 Event handling</title>
+	</head>
+	<body>
+		<p id="para1">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores neque officia dignissimos ea eaque? Vel vero nemo ratione, voluptatem fugit repellendus accusamus iste doloremque
+			facilis vitae voluptatibus rem cumque commodi.
+		</p>
+		<button id="btn1" style="background-color: rgb(184, 5, 5); border: 0px; border-radius: 2px; padding: 5px; color: antiquewhite">Change Text</button>
+
+		<div>
+			<h1 id="toogleImgh1">Image Visibilty: None</h1>
+			<button id="btn2" style="background-color: rgb(64, 102, 240); border: 0px; border-radius: 2px; padding: 5px; color: antiquewhite">Double Click</button>
+			<img
+				src="https://images.pexels.com/photos/17543714/pexels-photo-17543714/free-photo-of-silhouettes-trees-under-starry-night-sky.png?auto=compress&cs=tinysrgb&w=600&lazy=load"
+				alt="images"
+				id="toogleImg"
+				style="display: none"
+			/>
+		</div>
+
+		<form id="form">
+			<input type="text" placeholder="name" name="fname" /> <br />
+			<input type="email" placeholder="email" name="email" />
+			<button type="submit">Submit</button>
+		</form>
+
+		<div style="margin: 1rem">
+			<label for="pet-select">Choose a pet:</label>
+			<br />
+			<select name="dropdown" id="dropdown-select">
+				<option value="">--Please choose an option--</option>
+				<option value="dog">Dog</option>
+				<option value="cat">Cat</option>
+				<option value="hamster">Hamster</option>
+				<option value="parrot">Parrot</option>
+				<option value="spider">Spider</option>
+				<option value="goldfish">Goldfish</option>
+			</select>
+			<h2>You Selected: <span id="option"> ?</span></h2>
+		</div>
+
+		<div>
+			<h3>Click the item log into console</h3>
+			<ul id="ul">
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+				<li>Item 4</li>
+			</ul>
+			<h4>Add new item in list</h4>
+			<button id="addChild">Click</button>
+		</div>
+	</body>
+</html>
